@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className="wrapper">
       <Navbar></Navbar>
       <Carousel></Carousel>
 
-      <Link href='/inventory'><h1>Inventory</h1></Link>
+      {/* <Link href='/inventory'><h1>Inventory</h1></Link> */}
 
     </div>
   );
